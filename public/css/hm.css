@@ -1,0 +1,55 @@
+.feature{
+    height:500px;
+  }
+  .feature img{
+    height:50%;
+  }
+  .bg-feature{
+    background:#12130ebd;
+  }
+  .bg-pitch-black{
+    background: #000;
+  }
+
+  .bi-star-fill,.bi-star-half{
+    color:gold;
+  }
+
+  .bi-arrow-through-heart-fill{
+    color:#fff;
+  }
+  .text-gradient {
+    background: linear-gradient(to right, #6a2590, #76329b);
+    -webkit-background-clip: text; /* for WebKit/Blink browsers */
+    background-clip: text;
+    color: transparent;
+}
+
+.btn-gradient{
+    background:linear-gradient(to right,#6a2590,#76329b);
+    color:white;
+}
+
+.btn-gradient:hover{
+    color:#fff;
+    background:linear-gradient(to right,#5c1f7e,#8438ad);
+}
+
+.hero-2{
+    position:relative;
+    background-image:url(/public/images/hero-bg.avif);
+}
+
+.navbar{
+    background:transparent;
+}
+
+.cta{
+    background:linear-gradient(#8438adc0,#8438adc0),url(/public/images/bgg.avif);
+}
+
+@media (max-width:767px){
+    .login-img{
+        display:none;
+    }
+}
