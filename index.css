@@ -1,0 +1,1245 @@
+html,body{
+    overflow-x: hidden;
+    font-family: 'Montserrat';
+}
+
+body{
+    font-family: 'Montserrat';
+}
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  
+
+  .navbars {
+    display: none;
+    justify-content: space-between;
+    font-family: 'Montserrat';
+    align-items: center;
+    background-color:#FFF;
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    font-size: 24px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: black;  
+  }
+  
+  .burger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .line {
+    width: 25px;
+    height: 3px;
+    background-color:#7800C1;
+    margin: 3px 0;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .nav-links {
+        
+      display: none;
+      flex-direction: column;
+      background-color: #FFF;
+      width: 100%;
+      position: absolute;
+      top: 70px;
+      right: 0; /* Align links to the right */
+      z-index: 1;
+    }
+  
+    .nav-links.active {
+      display: flex;
+    }
+  
+    .burger {
+      display: flex;
+    }
+  
+    body {
+      overflow-x: hidden;
+    }
+  }
+  
+
+nav{
+    background-color: white;
+    font-family: 'Montserrat';
+}
+.navbar{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 90%;
+}
+
+.navbar ul {
+    display: flex;
+    margin-top: 20px;
+}
+
+.navbar ul li{
+list-style: none ;  /* remove bullets */
+margin-right: 60px;
+font-size: 16px;
+font-weight: 500;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    }
+.mainHero{
+background-image: url('./images/Rectangle\ 48.png');
+background-repeat: repeat;
+background-size: cover;
+width: 100%;
+height: 700px;
+}
+
+.heroWriteUp{
+width:60%;
+margin: auto;
+color: white;
+text-align: center;
+}
+
+.heroWriteUp h1{
+    font-size: 48px;
+    font-family: 'poppins';
+    padding-top: 80px;
+}
+
+.waitlist h4 {
+    font-family: 'Montserrat';
+    margin-top: 20px;
+}
+
+.waitlist h3 {
+    margin-top: 30px;
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-family: 'Inter';
+}
+
+.phonediv{
+    width: 50%;
+    margin: auto;
+    margin-bottom: 90px;
+}
+
+.phone1{
+    margin-right: -90px;
+    margin-left: 50px;
+    padding: 0px;
+}
+
+.phone2{
+    margin-right: -90px;
+/*   
+    background-color: rgb(23, 20, 227); */
+}
+
+.dating{
+    font-family: 'Montserrat';
+    width: 70%;
+    margin:auto;
+    margin-top: 400px;
+    border-top: 1px solid rgb(163, 154, 154);
+
+}
+.dating h2 {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: 'poppins';
+    font-size: 44px;
+}
+.datingChild{
+display: flex;
+height: 600px;
+justify-content: space-between;
+
+}
+
+.phone3{
+    margin-top: -160px;
+    width: 50%;
+}
+
+.datingWriteUp{
+    margin-top: 120px;
+    padding: 30px;
+    font-family: 'Montserrat';
+}
+
+.date{
+    color:  #7800C1;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 24px;
+
+}
+
+.dating h1{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.datinglast{
+    font-size: 20px;
+    margin-top: 20px;
+    color: #737373;
+
+}
+
+.jobBoard{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    height: 500px;
+    justify-content: space-between;
+    margin-right: 130px;
+    font-family: 'Montserrat';
+}
+
+#mobileJob{
+    display: none;
+}
+.phone4{
+    margin-top: -160px;
+    width: 50%;
+    padding: 0;
+}
+
+.jobBoardTitle{
+    color:  #7800C1;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 24px; 
+}
+
+.connect{
+    font-size: 35px;
+    margin-bottom: 10px; 
+}
+
+.jobLast{
+    font-size: 20px;
+    margin-top: 20px;
+    color: #737373;  
+}
+
+.jobContainer{
+    margin-top: 100px;
+    padding: 0;
+}
+
+.businessDiv{
+    width:100%;
+    height: 250px;
+    margin-top: 250px;
+    background:url('./images/Rectangle\ 53.png')
+}
+
+.businessChild{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.phone5{
+    margin-top: -250px;
+}
+
+.businessChild2{
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+.businessTitle{
+    color: #FFF;
+    font-weight: bold;
+    font-family: 'Montserrat';
+    margin-bottom: 10px;
+    font-size: 24px; 
+}
+
+.businessDescription{
+    font-size: 30px;
+    margin-top: 40px;
+    color: #FFF;
+    font-family: 'Montserrat';
+    
+}
+
+.giveBackMain{
+    font-family: 'Montserrat';
+    width:60%;
+    margin: auto;
+    padding: 20px;
+    padding-bottom: 50px;
+    margin-top: 200px;
+    margin-bottom: 150px;
+    /* margin-right: 100px; */
+    display: flex;
+    border-bottom: 3px solid rgb(229, 225, 225);
+}
+
+.phone6{
+    margin-left: 100px;
+}
+.giveBackText{
+    margin-top: 150px;
+}
+
+.giveTitle{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.givedescription{
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 350px;
+    font-weight:500;
+}
+
+.givebackbutton{
+    width: 150px;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    background: black;
+    color: #FFF;
+    font-size: 15px;
+}
+
+.pitchChild{
+    /* height: 500px; */
+    background:url('./images/Rectangle\ 47\ \(1\).png');
+    padding-bottom: 150px;
+    margin-top: -10px;
+}
+
+.pitchChild2{
+    width:70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.vision{
+    width: 350px;
+    padding: 30px;
+    height:300px;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    background-color:#5C1289;
+    box-shadow: 50px 30px 150px 0px rgba(0, 0, 0, 0.30);
+}
+
+.mission{
+    width: 400px;
+    padding: 20px;
+    height: 400px;
+    color: #FFF;
+    border-radius: 20px;
+    background-color:#5C1289;
+    box-shadow: 50px 30px 150px 0px rgba(0, 0, 0, 0.30);
+}
+
+.vmTitle{
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #FFF;
+}
+
+.downloadDiv{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+}
+
+
+.downloadDiv p{
+    margin-bottom: 10px;
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 500;
+}
+.downloadbutton{
+    width: 150px;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    background: #FFF;
+    color:  #7800C1;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.gradient{
+    background: #7800C1; 
+    width: 100%;
+    height: 200px;
+    box-shadow: 40px;
+    position: absolute;
+    bottom: 0;
+    filter: blur(180px);
+    box-shadow: 150px  rgba(120, 0, 193, 0.642);
+}
+
+.pitchDiv{
+    position: relative;
+    background-image: url('./images/Rectangle\ 47\ \(1\).png');
+}
+
+.waitlist{
+    font-family: 'Montserrat';
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    margin-top: 150px;
+    padding: 30px;
+    background: white;
+    border-top-right-radius: 120px;
+    border-bottom-left-radius: 120px;
+    /* border-bottom: 9px solid #7800C1 ;
+    border-top: 5px solid #7800C1 ; */
+}
+
+.appDownload{
+    margin-top: 30px;
+    display: flex;
+    /* background-color: #7800C1; */
+    width: 60%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.playStore {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    margin-top: -35px; /* Add this line to make positioning work */
+  }
+
+  /* Style for the button */
+  .playStore a {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+.waitlist p{
+    font-size: 20px;
+    color: #7800C1;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.waitlist h1{
+    font-size: 50px;
+    color: #7800C1;
+    margin-bottom: 70px;
+}
+.spinner {
+    position: absolute;
+    display: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px; /* Adjust the size as needed */
+}
+
+
+
+.email{
+    width: 400px;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #7800C1;
+    outline: none;
+    font-size: 20px;
+}
+.email::placeholder{
+    color: #7800C1;
+}
+.emailbutton{
+    width: 150px;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    background: #7800C1;
+    color:  #FFF;
+    font-size: 15px;
+    position: relative;
+    font-weight: bold;
+}
+
+.footerDiv{
+    
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    padding-bottom: 30px;
+}
+
+.footerDiv ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerDiv ul li{
+    list-style: none;
+    margin-right: 50px;
+    font-size: 40px;
+    color: #7800C1;
+}
+
+.copyright{
+    display: flex;
+    align-items: center;
+}
+.section{
+    transition: transform 0.5s ease-in-out;
+
+}
+
+/* styles.css */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+}
+
+.footerDiv ul li a{
+    text-decoration: none;
+    color: #7800C1;
+}
+@media screen and (max-width:1100px) {
+    .heroWriteUp{
+        width:70%;
+     }
+
+     .phonediv{
+        width: 70%;
+        margin: auto;
+        margin-bottom: 190px;
+    }
+
+    .dating{
+        width: 90%;
+        margin:auto;
+        margin-top:500px;
+    
+    }
+    
+    .businessChild{
+        width: 80%;
+    }
+
+
+    .giveBackMain{
+        width:90%;
+    }
+
+    .waitlist{
+        width: 80%;
+    }
+
+    .footerDiv{
+        width: 90%;
+    }
+   
+    
+.pitchChild2{
+    width:90%;
+    
+}
+
+}
+
+@media screen and (max-width:950px){
+    .phonediv{
+        width: 80%;
+        margin: auto;
+        margin-bottom: 90px;
+    }
+
+    .dating{
+        width: 90%;
+        margin:auto;
+        margin-top:500px;
+    
+    }
+
+    
+.phone3{
+    margin-top: -160px;
+    margin-left: -100px;
+    width: 50%;
+}
+
+.datingWriteUp{
+    margin-left: 50px;
+    margin-top: 120px;
+    /* padding: 50px; */
+}
+
+.jobBoard{
+    width: 90%;
+    margin-right: 50px;
+}
+
+.jobContainer{
+    margin-top: 120px;
+    padding: 10px;
+}
+
+.businessChild{
+    width: 90%;
+}
+
+.businessChild2{
+    padding-left: 20px;
+}
+
+.giveBackMain{
+    width:90%;
+}
+
+.givedescription{
+    
+    width: 300px;
+    font-size: 20px;
+}
+
+.waitlist{
+    width: 90%;
+}
+
+.footerDiv{
+    width: 100%;
+    padding: 20px;
+}
+
+.pitchChild2{
+    width:100%;
+    
+}
+
+}
+
+@media screen and (max-width:850px) {
+    .pitchChild2{
+        width:100%;
+        flex-wrap: wrap;
+        
+    }
+
+    .vision{
+        margin: auto;
+        width: 70%;
+        margin-bottom: 40px;
+    }
+
+    .mission{
+        margin: auto;
+        width: 70%;
+        display: flex;
+        align-items: center;
+    }
+
+    .phone6{
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width:600px){
+.navbars{
+    display: flex;
+}
+    #navbar{
+        display: none;
+    }
+    .heroWriteUp{
+        width:100%;
+     }
+
+     .mainHero{
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x:center;
+        }
+
+        .phonediv{
+            width: 100%;
+        }
+
+        .phone1{
+            /* margin-right: 0; */
+            margin-left: 0;
+           
+        }
+        
+        .phone2{
+            /* margin-right: 0; */
+            margin-top: 10px;
+            margin-right: -150px;
+        /*   
+            background-color: rgb(23, 20, 227); */
+        }
+
+        .dating{
+            width: 100%;
+            margin:auto;
+            margin-top:500px;
+        
+        }
+
+        .datingChild{
+            flex-wrap: wrap;
+            
+            }
+
+            .datingWriteUp{
+              
+                width: 100%;
+                margin-top: -250px;
+                margin-left: -15px;
+                padding: 30px;
+            }
+
+            .phone3{
+                margin-top: -160px;
+                margin-left: 0;
+                width: 50%;
+            }
+            .jobBoard{
+                flex-wrap: wrap;
+                margin-top: 130px;
+            }
+
+            .dating h1{
+                font-size: 25px;
+            }
+
+            .connect{
+                font-size: 25px;
+            }
+
+            .businessChild{
+                width: 90%;
+            }
+
+            .businessChild2{
+                padding-left: 0;
+                padding-top: 10px;
+            }
+
+            .businessChild{
+                width: 100%;
+            }
+
+            .businessDescription{
+                font-size: 20px;
+                margin-top: 20px;
+                
+                
+            }
+
+            .businessDiv{
+                margin-top: 700px;
+                
+            }
+
+
+.giveBackMain{
+    width:100%;
+}
+
+.givedescription{
+    
+    width: 200px;
+    font-size: 20px;
+}
+
+.waitlist{
+    width: 100%;
+}
+
+.waitlist p{
+    font-size: 20px;
+}
+
+.waitlist h1{
+    font-size: 40px;
+}
+
+.email{
+    width: 300px;
+    padding: 10px;
+}
+
+.footerDiv{
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.copyright{
+    width: 90%;
+    margin: auto;
+    padding-left: 40px;
+}
+
+.pitchChild2{
+    width:100%;
+    flex-wrap: wrap;
+    padding:20px ;
+    
+}
+
+.vision{
+    width: 80%;
+    margin: auto;
+}
+
+.mission{
+    width: 80%;
+    margin: auto;
+}
+
+.missionDiv{
+    margin-top: 20px;
+}
+.downloadDiv{
+    width: 70%;
+    margin-top: 70px;
+}
+
+
+.phone6{
+    margin-left: -60px;
+}
+
+#webJob{
+    display: none;
+}
+
+#mobileJob{
+    display: contents;
+}
+
+.jobContainer{
+    margin-top: -240px;
+    margin-bottom: 200px;
+    padding: 10px;
+}
+
+
+    
+.phone4{
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 100%;
+    padding: 0;
+    
+}
+
+.phone5{
+    margin-top: -250px;
+}
+}
+
+@media screen and (max-width:450px) {
+    .heroWriteUp h1{
+        font-size: 35px;
+    }
+
+    .phone4{
+        margin-left: -60px;
+        margin-top: 20px;
+        width: 100%;
+        padding: 0;
+        
+    }
+
+  
+ 
+    .heroWriteUp h3 {
+        margin-top: 30px;
+        font-size: 30px;
+    }
+
+    .phone2{
+        margin-top: -100px;
+        margin-right: -150px;
+  
+    }
+
+    .dating{
+        margin-top:1000px;
+        
+    
+    }
+
+        
+.appDownload{
+    width: 90%;
+   
+}
+    .jobBoard{
+        flex-wrap: wrap;
+        margin-top: 150px;
+        padding: 10px;
+    }
+    
+    .phone3{
+        margin-left: -55px;
+    }
+
+    
+    .businessChild{
+        flex-wrap: wrap;
+    }
+
+    .businessDiv{
+        height: 700px;    
+        margin-top: 800px;
+    }
+
+    
+.businessTitle{
+    
+  
+    font-size: 24px; 
+    padding: 10px;
+}
+
+.businessDescription{
+    font-size: 20px;
+    padding: 10px;
+    
+}
+
+    .giveBackMain{
+        flex-wrap: wrap;
+        margin-top: 0;
+    }
+
+    .givedescription{
+    
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .giveBackText{
+        margin-top: 120px;
+        width: 100%;
+        margin: auto;
+    }
+
+    .phone6{
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    
+.waitlist p{
+    font-size: 15px;
+}
+
+.waitlist h1{
+    font-size: 30px;
+}
+
+.email{
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.footerDiv ul li{
+    margin-left: 50px;
+    margin-right: 0;
+    font-size: 30px;
+}
+
+/* .footerDiv ul {
+    margin-top: 30px;
+} */
+
+.copyright{
+    width: 100%;
+    margin: auto;
+    padding-left: 0;
+    font-size: 15px;
+}
+
+.vision{
+    width: 90%;
+    margin: auto;
+}
+
+.mission{
+    width: 100%;
+    height: 500px;
+    margin: auto;
+}
+
+.missionDiv{
+    margin-top: 20px;
+}
+
+.downloadDiv{
+    width: 90%;
+    margin-top: 70px;
+}
+
+.footerLogo{
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.phone6{
+    margin-left: 0;
+}
+}
+
+@media screen and (max-width:380px){
+
+    .phone3{
+        margin-left: -75px;
+    }
+}
+
+@media screen and (max-width:330px){
+    
+    .businessDiv{
+        height: 700px;    
+        margin-top: 850px;
+    }
+
+   
+   
+    .dating{
+        margin-top:1100px;
+    
+    } 
+
+    .phone3{
+        margin-left: -95px;
+    }
+
+    .jobBoard{
+        flex-wrap: wrap;
+        margin-top: 190px;
+    }
+
+    .phone4{
+        margin-left: -90px;
+        
+    }
+
+    .jobContainer{
+        width: 100%;
+    }
+
+    .email{
+        width: 200px;
+        font-size: 15px;
+    }
+
+    .footerDiv ul li{
+        margin-left: 20px;
+        margin-right: 0;
+        font-size: 20px;
+    }
+
+    .copyright{
+        font-size: 10px;
+    }
+
+    .waitlist{
+        padding: 10px;
+    }
+    .footerDiv{
+        width: 100%;
+        padding: 10px;
+    }
+
+
+    .vision{
+        width: 100%;
+        margin: auto;
+        height:300px;
+    }
+    
+    .mission{
+        width: 100%;
+        padding: 5px;
+        height: 650px;
+    }
+
+    .footerDiv ul {
+        margin: auto;
+    }
+
+    .footerDiv ul li{
+        margin-left: 0;
+        margin-right: 50px;
+    }
+}
+
+
+@media screen and (min-width: 1500px) {
+     .phonediv{
+        width: 40%;
+        
+    }
+
+    .phone1{
+        margin-left: 0;
+    }
+
+    .dating{
+        width: 60%;
+    }
+
+    .jobBoard{
+        /* background: greenyellow; */
+        width: 70%;
+    }
+
+    .businessChild{
+        width: 50%;
+       
+    }
+
+    .giveBackMain{
+        width: 50%;
+    }
+
+    
+.pitchChild2{
+    width:60%;
+   
+}
+  }
+
+  @media screen and (min-width: 1600px) {
+    .phonediv{
+       width: 40%;
+   }
+
+   .dating{
+    width: 50%;
+}
+
+.jobBoard{
+    /* background: greenyellow; */
+    width: 65%;
+}
+
+.pitchChild2{
+    width:50%;
+   
+}
+ }
+
+  @media screen and (min-width: 1800px) {
+    .phonediv{
+       width: 30%;
+   }
+
+   .jobBoard{
+    width: 50%;
+    margin: auto;
+   }
+ }
+
+ @media screen and (min-width: 2000px) {
+    .phonediv{
+       width: 30%;
+   }
+ }
+
+ @media screen and (min-width: 2200px) {
+    .phonediv{
+       width: 25%;
+   }
+
+   .dating{
+    width: 30%;
+}
+
+.jobBoard{
+    width: 30%;
+    margin: auto;
+   }
+
+   .businessChild{
+    width: 30%;
+   
+}
+
+.giveBackMain{
+    width: 30%;
+}
+
+.pitchChild2{
+    width:35%;
+   
+}
+ }
